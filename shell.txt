@@ -1,0 +1,3 @@
+
+sudo docker build /home/ubuntu/jenkins/workspace/job3/ -t image3
+sudo docker run -itd -p 80:80 --name=c3 image3
